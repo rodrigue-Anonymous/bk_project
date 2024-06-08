@@ -30,6 +30,7 @@
             <li><a href="#teams">Teams</a></li>
             <li><a href="#blog">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="#blog">Login</a></li>
             <li><a href="#"><i class="bx bx-search bx-sm" id="search-btn"></i></a></li>
         </ul>
         <div class="search-form">

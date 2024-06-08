@@ -1,4 +1,4 @@
-@extends('dashlayout.master')
+@extends('layout.dashlayout.master')
 @section('title','dashbord')
 @section('content')
 <body>

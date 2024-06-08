@@ -2,7 +2,7 @@
 <html lang="fr-fr">
 
 <head>
-    @include('layout.head')
+    @include('layout.dashlayout.head')
 </head>
 <body class="home">
     <div class="master-main">
@@ -16,8 +16,8 @@
         {{-- <x-scroll-button /> --}}
 
         {{-- <x-bubbles /> --}}
-        
+
 
     </div>
-    @include('layout.script')
+    @include('layout.dashlayout.script')
 </body>
