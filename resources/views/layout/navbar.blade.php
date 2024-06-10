@@ -30,8 +30,14 @@
             <li><a href="#teams">Teams</a></li>
             <li><a href="#blog">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#blog">Login</a></li>
+            <li class="{{ Request::is('register') ? 'active' : '' }}"><a href="{{route('register')}}" title="Client et Admin ">Inscription</a></li>
             <li><a href="#"><i class="bx bx-search bx-sm" id="search-btn"></i></a></li>
+
+            {{-- <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{route('accueil')}}" title="Accueil">Accueil</a></li>
+            <li class="{{ Request::is('a_propos') ? 'active' : '' }}"><a href="{{route('a_propos')}}" title="A propos">A propos</a></li>
+            --}}
+
+
         </ul>
         <div class="search-form">
             <input type="search" name="search-box" id="search-box" placeholder="search here...">
